@@ -5,7 +5,7 @@ It builds upon the work of:
 
 > L. Loechel, S.-R. Akbayin, E. Grünewald, J. Kiesel, I. Strelnikova, T. Janke, and F. Pallas, *"Hook-in Privacy Techniques for gRPC-based Microservice Communication,"* arXiv, 2024. [https://doi.org/10.48550/arXiv.2404.05598](https://doi.org/10.48550/arXiv.2404.05598)
 
-## ✨ Extension in This Repository
+## Extension in This Repository
 
 While the original work introduced the **PURPL framework** and focused on unary RPC calls, this repository extends the concepts by:
 
@@ -14,13 +14,13 @@ While the original work introduced the **PURPL framework** and focused on unary 
 * Introducing **chat-based communication mode**, where multiple clients and servers exchange messages while maintaining privacy constraints.
 * Demonstrating how **privacy policies** can be enforced consistently across **unary, streaming, and chat** gRPC communication patterns.
 
-## 📂 Repository Structure
+## Repository Structure
 
 * `playground/interceptors/` — Core implementations of interceptors for enforcing PURPL policies.
 * `interceptors/retry/`, `interceptors/auth/`, `interceptors/recovery/`, etc. — Extensions and utility interceptors.
 * `examples/` (to be added) — Example services demonstrating unary, streaming, and chat usage.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
