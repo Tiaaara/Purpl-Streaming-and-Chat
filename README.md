@@ -54,7 +54,7 @@ go run examples/chat/server.go
 go run examples/chat/client.go
 ```
 
-## 📖 Reference
+## Reference
 
 If you use this work in your research, please cite:
 
@@ -68,7 +68,7 @@ If you use this work in your research, please cite:
 }
 ```
 
-## 📌 Notes
+## Notes
 
 * This repository is **experimental** and intended for research purposes.
 * Streaming and chat extensions are proposed contributions and are not part of the original PURPL paper.
