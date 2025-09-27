@@ -1,0 +1,18 @@
+{
+  "services": {
+    "trackingService-maximal": {
+      "purpose1": {
+        "allowed": {},
+        "generalized": {},
+        "noised": {},
+        "reduced": {
+          "Name": ["string", "0"],
+          "PhoneNumber": ["string", "0"],
+          "Street": ["string", "0"],
+          "Age": ["int", "mask"],
+          "Sex": ["string", "0"]
+        }
+      }
+    }
+  }
+}

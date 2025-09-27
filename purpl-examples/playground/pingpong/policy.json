@@ -1,0 +1,30 @@
+{
+  "services": [
+    {
+      "name": "server_two",
+      "purposes": [
+        {
+          "name": "AllAllowed",
+          "allowed": ["name","age","sex","phone","street","zip","country","email","credit_card_number","credit_card_cvv","credit_card_expiration_year","credit_card_expiration_month","street_number","city"]
+        },
+        {
+          "name": "MixedGood",
+          "allowed": ["name","street","sex","phone"],
+          "generalized": { "age": 10 },
+          "reduced": { "phone": 3, "email": 4, "country": 3 },
+          "noised": {}
+        },
+        {
+          "name": "AllDenied"
+        },
+        {
+          "name": "Noising",
+          "allowed": ["name","street","sex"],
+          "noised": { "age": "Laplace", "street_name": "Laplace" },
+          "generalized": {},
+          "reduced": {}
+        }
+      ]
+    }
+  ]
+}
