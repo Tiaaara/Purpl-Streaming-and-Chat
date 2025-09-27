@@ -14,12 +14,6 @@ While the original work introduced the **PURPL framework** and focused on unary 
 * Introducing **chat-based communication mode**, where multiple clients and servers exchange messages while maintaining privacy constraints.
 * Demonstrating how **privacy policies** can be enforced consistently across **unary, streaming, and chat** gRPC communication patterns.
 
-## Repository Structure
-
-* `playground/interceptors/` — Core implementations of interceptors for enforcing PURPL policies.
-* `interceptors/retry/`, `interceptors/auth/`, `interceptors/recovery/`, etc. — Extensions and utility interceptors.
-* `examples/` (to be added) — Example services demonstrating unary, streaming, and chat usage.
-
 ## Getting Started
 
 ### Requirements
